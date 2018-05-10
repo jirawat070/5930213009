@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Wongnok</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Itim|Pangolin" rel="stylesheet">
+    <link rel="stylesheet" href="css/default.css">    
+</head>
+
+<body><br><div class="container "><nav class="navbar navbar-expand-lg navbar-dark"> 
+    <a class="navbar-brand active" >Wongnok  ไม่ใช่ Wongnai 
+    </a>
+    
+     
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="col-7"></div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home
+                  
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="search.html">Search</a>
+              </li>
+    
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="about.html">Contact</a>
+              </li>
+        </ul>
+
+      </div>
+  </nav></div>
+    <div class="container">
+        <h1 class="display-3">Search</h1>
+        <form>
+            <div class="form-group col">
+                <label for="">Search</label>
+                <input type="text" name="keyword" id="keyword" class="form-control" placeholder="Keyword ex. Cafe, Seafood" aria-describedby="helpId">
+            </div>
+            <div class="form-group col">
+                <label for="">Category</label>
+                <select class="form-control" name="type" id="type">
+                    <option value="resturant">Resturant</option>
+                    <option value="doctor">Doctor</option>
+                    <option value="beauty_salon">Beauty Salon</option>
+                    <option value="gas_station">Gas Station</option>
+                    <option value="atm">ATM</option>
+                </select>
+            </div>
+            <div class="form-group col">
+                    <label for="">Distance</label>
+                    <select class="form-control" name="radius" id="radius">
+                        <option value="500">500 m</option>
+                        <option value="1000">1 km</option>
+                        <option value="5000">5 km</option>
+                    </select>
+                </div>
+                <div class="col">
+            <a name="" id="search" class="btn btn-primary" href="#" role="button">Search</a>
+            <p></p>
+            <h4>Results</h4>
+            <div id="searchresult"></div>     </div>       
+        </form>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.4/fetch.min.js"></script>
+    <script src="js/placesearch.js"></script>
+    <script src="js/search.js"></script>
+</body>
+
+</html>
